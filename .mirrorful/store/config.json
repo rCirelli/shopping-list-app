@@ -1,0 +1,200 @@
+{
+	"primitives": {
+		"colors": {
+			"Blue": {
+				"50": {
+					"id": "6d845bd8-6524-424c-92d5-1a66d5c1b3e7",
+					"value": "#8bb8f1",
+					"type": "color"
+				},
+				"100": {
+					"id": "fd2f2967-47ee-4b98-a81a-d599c0d8fa17",
+					"value": "#6fa7ee",
+					"type": "color"
+				},
+				"200": {
+					"id": "6fc7bfc1-e1b1-409d-a694-fcc372a3393b",
+					"value": "#5497eb",
+					"type": "color"
+				},
+				"300": {
+					"id": "09d75f6f-2131-49b7-93ce-264be9a3d14d",
+					"value": "#3986e8",
+					"type": "color"
+				},
+				"400": {
+					"id": "43cb0144-5a4a-45aa-86e8-efa1f3288daf",
+					"value": "#1d75e4",
+					"type": "color"
+				},
+				"500": {
+					"id": "4770e9bc-4ff2-40e0-87a8-082ef47b9453",
+					"value": "#1867cb",
+					"type": "color"
+				},
+				"600": {
+					"id": "33543767-8e92-4e34-ab9b-2113a6592ca7",
+					"value": "#1559b0",
+					"type": "color"
+				},
+				"700": {
+					"id": "e6e67c53-d036-45ba-87b2-e04366a74943",
+					"value": "#124b94",
+					"type": "color"
+				},
+				"800": {
+					"id": "eb7aafe9-242d-4d81-b209-e467a5b63535",
+					"value": "#0e3d79",
+					"type": "color"
+				},
+				"900": {
+					"id": "18d02b76-bf86-4506-a879-ba256e0b82d0",
+					"value": "#0b2f5d",
+					"type": "color"
+				},
+				"base": {
+					"id": "3bdb12ff-1386-455c-a4b6-67170dde9b18",
+					"value": "#1867cb",
+					"type": "color"
+				}
+			},
+			"Text Main": {
+				"base": {
+					"id": "5f781578-5fe7-4734-ab69-ac5f36837bc5",
+					"value": "#e3e4e9",
+					"type": "color"
+				}
+			},
+			"Text Secondary": {
+				"base": {
+					"id": "e638b74c-b4d7-47d5-8aaf-5cccc81384fe",
+					"value": "#9d9da5",
+					"type": "color"
+				}
+			},
+			"Foreground": {
+				"base": {
+					"id": "f122ac13-070f-4bb3-8882-0ef1d40f55c9",
+					"value": "#373743",
+					"type": "color"
+				}
+			},
+			"Background": {
+				"base": {
+					"id": "ae82f544-0e4b-427b-860a-91f69b915862",
+					"value": "#15151d",
+					"type": "color"
+				}
+			},
+			"Accent": {
+				"base": {
+					"id": "789d924b-32e7-427a-93fd-5f171682313a",
+					"value": "#f7451f",
+					"type": "color"
+				}
+			},
+			"Accent Active": {
+				"base": {
+					"id": "ccdce5e0-4ea3-4db2-9552-d686ebd887ce",
+					"value": "#fe7736",
+					"type": "color"
+				}
+			},
+			"Accent 2": {
+				"base": {
+					"id": "30efacb8-7d8c-488f-828a-b4d59d87a48a",
+					"value": "#1867cb",
+					"type": "color"
+				}
+			}
+		},
+		"typography": {
+			"fontSizes": {
+				"sm": {
+					"id": "default-font-size-sm-id",
+					"value": "1rem",
+					"type": "fontSize"
+				},
+				"md": {
+					"id": "default-font-size-md-id",
+					"value": "1.2rem",
+					"type": "fontSize"
+				},
+				"lg": {
+					"id": "default-font-size-lg-id",
+					"value": "1.4rem",
+					"type": "fontSize"
+				}
+			},
+			"fontWeights": {
+				"light": {
+					"id": "default-font-weight-light-id",
+					"value": "200",
+					"type": "fontWeight"
+				},
+				"normal": {
+					"id": "default-font-weight-normal-id",
+					"value": "400",
+					"type": "fontWeight"
+				},
+				"bold": {
+					"id": "default-font-weight-bold-id",
+					"value": "700",
+					"type": "fontWeight"
+				}
+			},
+			"lineHeights": {
+				"short": {
+					"id": "default-line-height-short-id",
+					"value": "1",
+					"type": "lineHeight"
+				},
+				"normal": {
+					"id": "default-line-height-normal-id",
+					"value": "1.5",
+					"type": "lineHeight"
+				},
+				"tall": {
+					"id": "default-line-height-tall-id",
+					"value": "2",
+					"type": "lineHeight"
+				}
+			}
+		},
+		"shadows": {
+			"sm": {
+				"id": "default-shadow-sm-id",
+				"value": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+				"type": "boxShadow"
+			},
+			"md": {
+				"id": "default-shadow-md-id",
+				"value": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+				"type": "boxShadow"
+			},
+			"lg": {
+				"id": "default-shadow-lg-id",
+				"value": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+				"type": "boxShadow"
+			},
+			"dark-lg": {
+				"id": "default-shadow-dark-lg-id",
+				"value": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+				"type": "boxShadow"
+			}
+		}
+	},
+	"themes": [],
+	"files": [
+		"css",
+		"js",
+		"cjs",
+		"ts",
+		"json"
+	],
+	"__internal__": {
+		"migrations": {
+			"version": "0.0.6"
+		}
+	}
+}
