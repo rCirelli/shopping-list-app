@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@hello-pangea/dnd": "^16.2.0",
     "@tabler/icons-react": "^2.16.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.37",
