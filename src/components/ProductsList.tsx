@@ -12,7 +12,6 @@ function ProductsList({ products }: { products: Product[] }) {
     const result = [...productsList];
     const [removed] = result.splice(startIndex, 1);
     result.splice(endIndex, 0, removed);
-
     return result;
   }, [productsList]);
 
@@ -20,12 +19,10 @@ function ProductsList({ products }: { products: Product[] }) {
     if (!result.destination) {
       return;
     }
-
     const items = reorderList(
       result.source.index,
       result.destination.index
     );
-
     setProductsList(items);
   }, [reorderList]);
 
