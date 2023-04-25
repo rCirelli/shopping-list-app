@@ -15,7 +15,7 @@ function AppLayout({
 }) {
   return (
     <main
-      className={`${inter.className} bg-background-base flex min-h-screen flex-col items-center justify-between p-10 text-text-main-base`}
+      className={`${inter.className} bg-background-base flex min-h-screen flex-col items-center justify-between p-7 text-text-main-base`}
     >
       {children}
     </main>

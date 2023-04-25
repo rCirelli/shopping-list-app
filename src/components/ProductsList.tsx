@@ -32,7 +32,7 @@ function ProductsList({ products }: { products: Product[] }) {
       <Draggable key={product} draggableId={product} index={i}>
         {(provided, snapshot) => (
           <ListItem
-            className="bg-foreground-base py-2 flex items-center rounded-md text-text-main-base"
+            className="bg-foreground-base py-3 flex items-center rounded-md text-text-main-base"
             ref={provided.innerRef}
             {...provided.draggableProps}
           >
@@ -58,7 +58,8 @@ function ProductsList({ products }: { products: Product[] }) {
       <Droppable droppableId="mainList">
         {(provided, snapshot) => (
           <List
-            spacing={12}
+            className='min-h-full'
+            spacing={15}
             {...provided.droppableProps}
             ref={provided.innerRef}
           >
